@@ -20,7 +20,7 @@ int main(int argc, char** argv)
     
     if (argc != 3)
     {
-        fprintf(stderr, "Command line usage:\n    executable_file input_file word");
+        fprintf(stderr, "\nCommand line usage:\n    executable_file input_file word\n");
         exit(EXIT_FAILURE);
     }
 
@@ -29,9 +29,9 @@ int main(int argc, char** argv)
 
     no_of_words = count_occurence_of_word(p_vector, argv[2]);   // get count of matching word from vector
     
-    printf("\n %s occured %llu times.\n", argv[2], no_of_words);  // print count for particular word
+    printf("\n %s   : occured %llu times.\n\n", argv[2], no_of_words);  // print count for particular word
 
-    show_vector(p_vector);
+    // show_vector(p_vector);
     release_vector(&p_vector);
 
     return (0);

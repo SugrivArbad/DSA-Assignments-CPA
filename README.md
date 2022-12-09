@@ -1,7 +1,7 @@
 # Data Structures and Algorithms assignments
 
 # Guide : 
-    * Yogeshwar Shukla sir (*Core Code Programming Academy*)
+##    * Yogeshwar Shukla sir (Core Code Programming Academy)
 
 
 ## Assignment-1: Count occurence of particular word in the file using own implemented vector in C language
